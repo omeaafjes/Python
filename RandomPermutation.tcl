@@ -1,3 +1,5 @@
+# This procedure takes a list as input an produces a random permutation of the elements of the list
+
 proc Perm { input } {
  set length [ llength $input ]
  set worklist $input
