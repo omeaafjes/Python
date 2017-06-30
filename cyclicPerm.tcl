@@ -1,5 +1,3 @@
-# This procedure takes a list "inlist" as argument and pushes the position of the elements forward by "trans"
-
 proc cyclicPerm { inlist trans } {
  set l [ llength $inlist ]
  set helplist {}
